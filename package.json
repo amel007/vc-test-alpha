@@ -1,0 +1,17 @@
+{
+  "name": "everscale-vc-test",
+  "version": "0.1.2",
+  "description": "Everscale VS TEST",
+  "main": "src/did-client-core.js",
+  "scripts": {
+    "test": "cd test && node ./run.js"
+  },
+  "dependencies": {
+    "@tonclient/appkit": "^0.3.0",
+    "@tonclient/core": "^1.28.0",
+    "@tonclient/lib-node": "^1.28.0",
+    "@tonclient/lib-web": "^1.20.1",
+    "crypto-js": "^4.1.1",
+    "noble-ed25519": "^1.2.6"
+  }
+}
